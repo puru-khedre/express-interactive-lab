@@ -1,2 +1,2 @@
 tabs: ['index.js']
-terminals: ["yarn init -y"]
+terminals: ["yarn init -y && yarn add express dotenv"]
