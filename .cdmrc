@@ -1,2 +1,1 @@
-tabs: ['index.js']
-terminals: ["yarn init -y && yarn add express dotenv"]
+terminal: ["echo 'Installing and Setting up Express.JS"]
