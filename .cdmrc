@@ -1,2 +1,2 @@
-terminal: ["yarn && node index.js"]
+terminals: ["yarn"]
 live-reload-browser: false
