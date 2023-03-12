@@ -1,2 +1,2 @@
-terminal: ["echo 'Installing and Setting up Express.JS"]
+terminal: ["echo 'Installing and Setting up Express.JS'"]
 live-reload-browser: false
