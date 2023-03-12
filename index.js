@@ -5,6 +5,8 @@ const app = express();
  * Adding your code here
  */
 
+console.log(__dirname);
+
 app.listen(1337, () => {
   console.log("Server started at port 1337");
 });
