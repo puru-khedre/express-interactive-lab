@@ -1,2 +1,2 @@
-terminal: ["echo 'Installing and Setting up Express.JS'"]
+terminal: ["yarn && node index.js"]
 live-reload-browser: false
