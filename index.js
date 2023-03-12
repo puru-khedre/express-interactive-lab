@@ -1,7 +1,10 @@
-const saveData = require("./db/saveData");
+const express = require("express");
+const app = express();
 
-/**
- * Calling saveData() to save the data in fake Database
- * const data = { d1, d2, d3 };
- * saveData(data);
+/*
+ * Adding your code here
  */
+
+app.listen(1337, () => {
+  console.log("Server started at port 1337");
+});

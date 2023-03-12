@@ -1,2 +1,3 @@
+tabs: ["index.js"]
 terminals: ["yarn"]
 live-reload-browser: false
