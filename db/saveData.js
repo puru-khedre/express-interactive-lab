@@ -6,8 +6,8 @@ const dataFilePath = path.join(__dirname, "data.json");
 function saveData(data) {
   try {
     const prevData = JSON.parse(fs.readFileSync(dataFilePath, "utf-8"));
-    let id = Object.keys(prevData).length + 1;
-    let currData = { ...prevData, [id]: data };
+    let id = prevData.length;
+    let currData = [...prevData, data];
 
     fs.writeFileSync(dataFilePath, JSON.stringify(currData));
     return id;
