@@ -1,9 +1,10 @@
-const saveData = require("./db/saveData");
-
-/**
- * Calling saveData() to save the data in fake Database
- * const data = { d1, d2, d3 };
- * saveData(data);
+const db = require("./db");
+/*
+ * // Calling getFllData() to get all data from database
+ * const data = db.getFullData();
+ *
+ * // Calling saveData() to save the data in fake Database
+ * db.saveData(data);
  */
 
 const express = require("express");
