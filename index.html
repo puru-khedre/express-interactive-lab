@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Signup</title>
+    <style>
+      body {
+        height: 100vh;
+        background-color: aliceblue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      form {
+        width: min(400px, 80vw);
+        border-radius: 10px;
+        border: 1px solid rgba(107, 107, 107, 0.596);
+        box-shadow: 0 0 30px 4px rgb(0 0 0 / 20%);
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        background-color: white;
+      }
+      form > div {
+        width: 100%;
+      }
+      input {
+        outline: none;
+        border-radius: 5px;
+        padding: 10px;
+        font-size: medium;
+        border: 1px solid rgb(201, 230, 255);
+        width: 90%;
+      }
+      input:focus {
+        border: 1px solid rgb(147, 204, 255);
+      }
+      button {
+        width: 50%;
+        padding: 10px;
+        font-size: larger;
+        color: white;
+        background-color: rgb(45, 255, 108);
+        font-weight: 700;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+      }
+      button:hover {
+        background-color: rgb(0, 255, 42);
+      }
+    </style>
+  </head>
+  <body>
+    <form action="/user" method="post">
+      <div>
+        <p>Email:</p>
+        <input
+          type="email"
+          name="email"
+          placeholder="Enter your email"
+          id="email"
+        />
+      </div>
+      <div>
+        <p>Password:</p>
+        <input
+          type="password"
+          name="password"
+          placeholder="Enter your password"
+          id="password"
+        />
+      </div>
+      <div>
+        <p>Firstname:</p>
+        <input
+          type="text"
+          name="firstname"
+          placeholder="Enter your firstname"
+          id="firstname"
+        />
+      </div>
+      <div>
+        <p>Lastname:</p>
+        <input
+          type="text"
+          name="lastname"
+          placeholder="Enter your lastname"
+          id="lastname"
+        />
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
