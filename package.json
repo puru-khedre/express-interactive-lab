@@ -9,6 +9,9 @@
   },
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon index.js"
+    "dev": "nodemon --ignore 'db/data.json' index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
   }
 }
